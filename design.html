@@ -1,0 +1,87 @@
+
+<html>
+ <head>
+  <meta charset="utf-8">
+     <meta name="viewport"content="width=device-width,initial-scale=1.0">
+     <title>Resistration form</title>
+    </head>
+     
+     
+
+     
+<body>
+    <div class="loginbox" style="background-color:blue">
+  
+      <center><h1>Registration Form</h1></center>  
+        
+    </div>
+    
+    <form method="get">
+    <fieldset>
+        <legend>Basic Information</legend>
+        <label for="fname">First Name</label>
+        <input type="text" name="Firstname" required><br>
+        
+        <label for="lname">Last Name</label>
+        <input type="text" name="Lastname" required><br>
+        
+        Gender:<br>
+          <label>
+    <input type="radio" name="gender" value="male" required>Male
+  </label>
+  <label>
+    <input type="radio" name="gender" value="female">Female
+  </label>
+  <label>
+    <input type="radio" name="gender" value="other">Other
+  </label>
+        <br>
+        
+        
+        <label for="DOB">DOB</label>
+		 <input type="date" name="DOB" required><br>
+
+		 <label for="Religion">Select Religion</label><br>
+			<select name="Religion" required> 
+				<option value="islam" name="islam" >islam</option> 
+				<option value="hindu" name="hindu" >hindu</option>
+                <option value="khristan" name="hindu" >khristan</option>
+                <option value="buddha" name="hindu" >buddha</option>
+			</select>
+			</fieldset>
+        
+        
+			<br>
+
+
+
+
+		<fieldset>
+		<legend>Contact Information:</legend>
+ 
+
+		<label for="presentaddress">Presentaddress:</label>
+		<textarea id="presentaddress" name="presentaddress" rows="2" cols="25"></textarea><br>
+
+		<label for="Permanentaddress">Permanentaddress:</label>
+		<textarea id="Permanentaddress" name="Permanentaddress" rows="2" cols="25"></textarea><br>
+
+		
+	    <label for="phone">phone: </label>
+		<input type="tel" id="phone" name="phone" ><br>
+
+		<label for="Email">Email: </label>
+		<input type="Email" name="Email" required><br>
+
+		<label for="Link">Personal Website link : </label>
+		 <input type="Link" name="Link" ><br>
+ 
+		</fieldset>
+        <br>
+        
+        <center><input type="submit" value="submit"></center>
+ 	</form>
+    
+     
+</body>
+</html>
